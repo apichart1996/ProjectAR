@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'palette',
+      parameters: [
+        {
+          baseColor: 'mirage_solo-0',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/mirage_solo-0.obj',
+    name: 'mirage_solo-0',
+    recenter: 'root',
+    scale: 0.041667000000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\mirage_solo-0.png',
+      name: 'mirage_solo-0',
+      pipeline_name: 'mirage_solo-0.png',
+    },
+  ],
+  version: '0.54:2',
+}

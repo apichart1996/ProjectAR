@@ -1,0 +1,100 @@
+{
+  materials: [
+    {
+      name: '01___Default',
+      parameters: [
+        {
+          baseColor: '4096_earth',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '02___Default',
+      parameters: [
+        {
+          baseColor: '4096_clouds',
+        },
+        {
+          baseColorTint: [
+            0.58819999999999995,
+            0.58819999999999995,
+            0.58819999999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/earth.obj',
+    name: 'earth',
+    recenter: 'root',
+    scale: 0.0014250000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\4096_bump.jpg',
+      name: '4096_bump',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'C:\\Documents and Settings\\glenn\\Desktop\\erth\\02\\4096\\4096_bump.jpg',
+    },
+    {
+      file: 'sampledata\\4096_earth.jpg',
+      name: '4096_earth',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'C:\\Documents and Settings\\glenn\\Desktop\\erth\\02\\4096\\4096_earth.jpg',
+    },
+    {
+      file: 'sampledata\\4096_night_lights.jpg',
+      name: '4096_night_lights',
+      pipeline_name: 'C:\\Documents and Settings\\glenn\\Desktop\\erth\\02\\4096\\4096_night_lights.jpg',
+    },
+    {
+      file: 'sampledata\\4096_clouds.jpg',
+      name: '4096_clouds',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'C:\\Documents and Settings\\glenn\\Desktop\\erth\\02\\4096\\4096_clouds.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

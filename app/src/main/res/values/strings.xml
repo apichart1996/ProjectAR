@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AR Education</string>
+    <string name="fit_image_to_scan">Fit image to scan</string>
+    <string name="camera">CAMERA</string>
+    <string name="help">HELP</string>
+    <string name="create">CREATE</string>
+
+    <string name="data1">
+            <b>
+                <big>วิธีการใช้งานแอปพลิเคชัน</big>
+            </b>
+        \n\n
+        1. เปิดแอปพลิเคชันขึ้นมาแล้วกดปุ่ม START \n
+        2. จากนั้นให้กดปุ่ม CAMERA เพื่อไปที่หน้าเปิดกล้อง \n
+        3. ให้นำกล้องไปส่องรูปภาพในหนังสือที่ถูกพัฒนาด้วยเทคโนโลยีเออาร์แล้ว \n
+        4. เมื่อมองที่ภาพในหนังสือผ่านหน้าจอแอปพลิเคชันจะแสดงเนื้อหาของภาพผ่านทางหน้าจอ \n
+        5. สนุก เพลิดเพลินกับเทคโนโลยีเออาร์
+
+        \n\n
+
+        <b>
+            <big>หนังสือ</big>
+        </b> \n\n
+        เอกสารประกอบการสอน รายวิชาชีวิตกับดิจิทัล Digital for life
+    </string>
+</resources>
